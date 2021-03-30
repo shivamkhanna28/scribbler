@@ -1,0 +1,46 @@
+body {
+    background-image: url("../images/background.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+ .main-buttons{
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .indexbutton{
+  height: 50px;
+  width: 160px;
+  padding: 10px;
+  border-radius: 2px;
+  
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 100%;
+  background: #DAB641;
+  color:black;
+  float: center;                  
+  
+  margin: 10px 10px 0px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ label{
+   font-weight: bold;
+ }
+
+ input[type=text], input[type=password]{
+  border: none;
+}
+
+input[type=text]:focus, input[type=password]:focus{
+  border: none;
+  background-color: lightgray;
+  box-shadow: none;
+}
+
+
+
+
